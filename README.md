@@ -1,5 +1,9 @@
 ### Hi there 👋
 
+#### Actions
+
+[![Unity WebGL Automatic Build 👽✨🚀](https://github.com/NikkiAsteinza/Unity-WebGL-Automatic-build-and-deployment/actions/workflows/main.yml/badge.svg)](https://github.com/NikkiAsteinza/Unity-WebGL-Automatic-build-and-deployment/actions/workflows/main.yml)
+
 <!--
 **NikkiAsteinza/NikkiAsteinza** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
