@@ -7,7 +7,7 @@
 
 ##### Backend
 <!-- ![Vercel](https://vercelbadge.vercel.app/api/nikkiasteinza/twist-api) -->
-![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=twist-api)
+![Twist_API Vercel Deployment 🚀](https://therealsujitk-vercel-badge.vercel.app/?app=twist-api)
 
 ##### Python
 [![Build Map Generator with Pygbag](https://github.com/NikkiAsteinza/MapGenerator/actions/workflows/pygame-deployment.yml/badge.svg)](https://github.com/NikkiAsteinza/MapGenerator/actions/workflows/pygame-deployment.yml)
