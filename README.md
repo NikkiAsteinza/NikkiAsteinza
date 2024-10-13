@@ -12,7 +12,7 @@
 ##### Python
 [![Build Map Generator with Pygbag](https://github.com/NikkiAsteinza/MapGenerator/actions/workflows/pygame-deployment.yml/badge.svg)](https://github.com/NikkiAsteinza/MapGenerator/actions/workflows/pygame-deployment.yml)
 
-[![Convex Hull with Pygbag](https://github.com/NikkiAsteinza/convex_hull/actions/workflows/pygame-deployment.yml/badge.svg)](https://github.com/NikkiAsteinza/MapGenerator/actions/workflows/deploy_pygame.yml)
+[![Convex Hull with Pygbag](https://github.com/NikkiAsteinza/convex_hull/actions/workflows/deploy_pygame.yml/badge.svg)](https://github.com/NikkiAsteinza/MapGenerator/actions/workflows/deploy_pygame.yml)
 <!--
 <!--
 **NikkiAsteinza/NikkiAsteinza** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
