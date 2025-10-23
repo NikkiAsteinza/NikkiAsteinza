@@ -98,6 +98,15 @@ body {
   transform: scaleX(1);
 }
 
+/* Estado activo para enlaces del menú (usado por scripts.js) */
+.main-nav a.active {
+  font-weight: 700;
+}
+
+.main-nav a.active::after {
+  transform: scaleX(1);
+}
+
 main {
   display: grid;
   gap: 2rem;

@@ -74,4 +74,29 @@ $(function () {
     direction: "alternate",
     loop: true,
   });
+
+  // --- Marcar enlace activo en la navegación según fragmento (ej. #portfolio)
+  function setActiveFromHash() {
+    var hash = window.location.hash || "";
+    $(".main-nav a").removeClass("active");
+    if (!hash) return;
+    var $match = $(".main-nav a").filter(function () {
+      var href = $(this).attr("href") || "";
+      // Coincide si el href es exactamente el hash, termina con el hash (../index.html#...) o es /index.html#...
+      return href === hash || href.endsWith(hash) || href === "../index.html" + hash || href === "/index.html" + hash;
+    }).first();
+    if ($match.length) {
+      $match.addClass("active");
+    }
+  }
+
+  // Ejecutar al cargar y cuando cambie el hash
+  setActiveFromHash();
+  $(window).on("hashchange", setActiveFromHash);
+
+  // Aplicar clase active inmediatamente al hacer click en el menú
+  $(".main-nav a").on("click", function () {
+    $(".main-nav a").removeClass("active");
+    $(this).addClass("active");
+  });
 });
